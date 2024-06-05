@@ -1,0 +1,52 @@
+.navbarComponent {
+    margin: 25px 13%;
+
+    border-bottom: 2px solid #FF6300;
+
+    background-color: #FFFFFF;
+}
+
+.navbarText {
+    margin-left: 15px;
+    margin-right: 15px;
+
+    font-size: 1.1rem;
+    font-weight: 500;
+
+    transition: transform 0.3s ease, color 0.3s ease;
+
+    color: #000000;
+}
+
+.navbarText:hover {
+    transform: translateY(-10px);
+
+    color: #FF6300;
+}
+
+.navbarButton {
+    margin-left: 15px;
+    margin-right: 15px;
+
+    width: 150px;
+
+    background-color: #FF6300;
+    border-color: #FF6300;
+}
+
+.navbarButton:hover, .navbarButton:focus, .navbarButton:active, .navbarButton:focus:active {
+    transform: scale(1.1);
+
+    background-color: #000000 !important;
+    border-color: #000000 !important;
+}
+
+.logo {
+    width: 175px;
+}
+
+@media only screen and (max-width: 550px) {
+    .logo {
+        width: 150px;
+    }
+}

@@ -1,0 +1,116 @@
+.containerHome {
+    margin-top: 75px;
+    margin-left: 14%;
+    margin-right: 14%;
+
+    min-height: 75vh;
+}
+
+.avatarImage {
+    width: 400px;
+}
+
+.homeText1 {
+    margin-bottom: 0px;
+
+    font-size: 1.3rem;
+    font-weight: bold;
+
+    color: #000000;
+}
+
+.homeText2 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+    font-size: 1.5rem;
+    font-weight: bold;
+
+    color: #FF6300;
+}
+
+.homeText3 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+    font-size: 4rem;
+    font-weight: bold;
+
+    color: #000000;
+}
+
+.homeText32 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 160px;
+
+    font-size: 4rem;
+    font-weight: bold;
+
+    color: #000000;
+}
+
+.homeText4 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 170px;
+
+    font-size: 1.1rem;
+    text-align: justify;
+
+    color: #000000;
+}
+
+.homeButton {
+    margin-top: 25px;
+
+    width: 125px;
+
+    background-color: #FF6300;
+    border-color: #FF6300;
+}
+
+.homeButton:hover, .homeButton:focus, .homeButton:active, .homeButton:focus:active {
+    transform: scale(1.1);
+
+    background-color: #000000 !important;
+    border-color: #000000 !important;
+}
+
+@media only screen and (max-width: 550px) {
+    .containerHome {
+        margin-top: 50px;
+    }
+    .avatarImage {
+        width: 300px;
+    }
+    .homeText1 {
+        font-size: 1.1rem;
+    }
+    .homeText2 {
+        font-size: 1.3rem;
+    }
+    .homeText3 {
+        font-size: 2.3rem;
+    }
+    .homeText32 {
+        margin-left: 95px;
+        font-size: 2.3rem;
+    }
+    .homeText4 {
+        margin-right: 0px;
+        font-size: 0.8rem;
+    }
+}
+
+@media only screen and (max-width: 990px) {
+    .avatarImageContainer {
+        margin: 25px;
+        justify-content: center !important;
+    }
+    .centerHomeButton {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
