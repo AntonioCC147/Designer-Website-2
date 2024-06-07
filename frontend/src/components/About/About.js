@@ -14,7 +14,7 @@ export default function About() {
                 <Col lg={6} className="d-flex flex-column align-items-center justify-content-center">
                     <img src={Avatar2} className="avatarImage" alt="Avatar"/>
                 </Col>
-                <Col lg={6} style={{marginBottom: "50px"}}>
+                <Col lg={6}>
                     <p className="aboutText1">About Me</p>
                     <p className="aboutText2">Lorem ipsum dolor sit amet consectetur. Imperdiet convallis blandit felis ligula aliquam venenatis nisi ante. Aliquet ornare tellus consectetur lacus</p>
                     <p className="aboutText3">UX</p>
