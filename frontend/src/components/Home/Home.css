@@ -3,7 +3,7 @@
     margin-left: 14%;
     margin-right: 14%;
 
-    min-height: 75vh;
+    min-height: calc(75vh + 20px);
 }
 
 .avatarImage {
@@ -53,7 +53,7 @@
 .homeText4 {
     margin-top: 0px;
     margin-bottom: 0px;
-    margin-right: 170px;
+    margin-right: 120px;
 
     font-size: 1.1rem;
     text-align: justify;
@@ -75,6 +75,20 @@
 
     background-color: #000000 !important;
     border-color: #000000 !important;
+}
+
+.avatarImageContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.iconsContainer img {
+    margin: 10px;
+}
+
+.iconsContainer img:hover {
+    transform: scale(1.1);
 }
 
 @media only screen and (max-width: 550px) {
@@ -105,7 +119,7 @@
 
 @media only screen and (max-width: 990px) {
     .avatarImageContainer {
-        margin: 25px;
+        margin-top: 25px;
         justify-content: center !important;
     }
     .centerHomeButton {

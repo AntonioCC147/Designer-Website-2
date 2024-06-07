@@ -1,0 +1,40 @@
+.containerAbout {
+    margin-top: 50px;
+    margin-left: 14%;
+    margin-right: 14%;
+
+    min-height: calc(75vh + 20px);
+}
+
+.aboutText1 {
+    margin-bottom: 0px;
+
+    font-size: 2.75rem;
+    font-weight: bold;
+
+    color: #000000;
+}
+
+.aboutText2 {
+    margin-top: 25px;
+    margin-bottom: 0px;
+
+    font-size: 1.1rem;
+    text-align: justify;
+
+    color: #000000;
+}
+
+.aboutText3 {
+    margin-top: 15px;
+    margin-bottom: 5px;
+
+    font-size: 1.2rem;
+    font-weight: 500;
+
+    color: #000000;
+}
+
+.progress-bar {
+    background-color: #FF6300;
+}
