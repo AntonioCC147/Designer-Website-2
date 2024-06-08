@@ -43,3 +43,9 @@
 .progress-bar {
     background-color: #FF6300;
 }
+
+@media only screen and (max-width: 990px) {
+    .aboutText1 {
+        margin-top: 50px;
+    }
+}

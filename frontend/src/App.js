@@ -5,6 +5,7 @@ import NavbarComponent from './components/Navbar/Navbar';
 import Home from './components/Home/Home';
 import About from './components/About/About';
 import Services from './components/Services/Services';
+import Projects from './components/Projects/Projects';
 
 export default function App() {
     return (
@@ -13,6 +14,7 @@ export default function App() {
             <Home/>
             <About/>
             <Services/>
+            <Projects/>
         </div>
     )
 }

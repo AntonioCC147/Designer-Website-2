@@ -18,7 +18,7 @@ export default function NavbarComponent() {
                     <Nav.Link href="/" className="navbarText">Home</Nav.Link>
                     <Nav.Link href="#about" className="navbarText">About</Nav.Link>
                     <Nav.Link href="#services" className="navbarText">Services</Nav.Link>
-                    <Nav.Link href="/" className="navbarText">Projects</Nav.Link>
+                    <Nav.Link href="#projects" className="navbarText">Projects</Nav.Link>
                     <Nav.Link href="/" className="navbarText">Testimonials</Nav.Link>
                     <Nav.Link href="/" className="navbarText">Contact Us</Nav.Link>
                     <Button className="navbarButton">Download CV</Button>
