@@ -1,0 +1,146 @@
+.containerTestimonials {
+    margin-left: 14%;
+    margin-right: 14%;
+
+    text-align: center;
+
+    min-height: calc(100vh - 75px);
+}
+
+.testimonialsText1 {
+    margin-bottom: 0px;
+
+    font-size: 2.75rem;
+    font-weight: bold;
+    text-align: center;
+
+    color: #000000;
+}
+
+.testimonialsText2 {
+    margin-top: 25px;
+    margin-bottom: 0px;
+    margin-left: 20%;
+    margin-right: 20%;
+
+    font-size: 1.1rem;
+    text-align: center;
+
+    color: #000000;
+}
+
+.carouselContainer {
+    padding: 25px;
+
+    width: 800px;
+    min-height: 300px;
+
+    border-radius: 10px;
+
+    background-color: #F8F8F8;
+}
+
+.carouselContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 75px auto;
+}
+
+.carouselImage {
+    width: 200px;
+}
+
+.carouselText {
+    margin-left: 25px;
+
+    font-size: 1.1rem;
+    text-align: justify;
+
+    color: #000000;
+}
+
+.carouselName {
+    margin-left: 25px;
+    margin-bottom: 0px;
+
+    font-size: 1.1rem;
+    font-weight: 500;
+    text-align: justify;
+
+    color: #000000;
+}
+
+.carousel-control-prev-icon {
+    margin-left: -200px;
+    background-image: url('../../assets/Icons/LeftArrow.png');
+}
+
+.carousel-control-next-icon {
+    margin-right: -200px;
+    background-image: url('../../assets/Icons/RightArrow.png');
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 50px !important;
+    height: 10px !important;
+
+    border: 1px solid transparent !important;
+    border-radius: 10px;
+
+    background-color: #FF6300;
+  }
+
+@media only screen and (max-width: 990px) {
+    .carouselImage {
+        margin-bottom: 25px;
+
+        width: 150px;
+    }
+    .carouselText {
+        margin-bottom: 25px;
+
+        margin-left: 0px;
+    }
+    .carouselName {
+        margin-left: 0px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .carouselImage {
+        margin-bottom: 25px;
+
+        width: 100px;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .carousel-control-prev-icon {
+        margin-left: -150px;
+    }
+    
+    .carousel-control-next-icon {
+        margin-right: -150px;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .carousel-control-prev-icon {
+        margin-left: -100px;
+    }
+    
+    .carousel-control-next-icon {
+        margin-right: -100px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .carousel-control-prev-icon {
+        margin-left: -50px;
+    }
+    
+    .carousel-control-next-icon {
+        margin-right: -50px;
+    }
+}

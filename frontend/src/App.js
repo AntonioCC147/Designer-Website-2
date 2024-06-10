@@ -6,6 +6,7 @@ import Home from './components/Home/Home';
 import About from './components/About/About';
 import Services from './components/Services/Services';
 import Projects from './components/Projects/Projects';
+import Testimonials from './components/Testimonials/Testimonials';
 
 export default function App() {
     return (
@@ -15,6 +16,7 @@ export default function App() {
             <About/>
             <Services/>
             <Projects/>
+            <Testimonials/>
         </div>
     )
 }
