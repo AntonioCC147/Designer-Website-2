@@ -8,6 +8,7 @@ import Services from './components/Services/Services';
 import Projects from './components/Projects/Projects';
 import Testimonials from './components/Testimonials/Testimonials';
 import Contact from './components/Contact/Contact';
+import Footer from './components/Footer/Footer';
 
 export default function App() {
     return (
@@ -19,6 +20,7 @@ export default function App() {
             <Projects/>
             <Testimonials/>
             <Contact/>
+            <Footer/>
         </div>
     )
 }

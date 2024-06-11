@@ -9,7 +9,7 @@
 
     text-align: center;
 
-    min-height: calc(100vh - 75px);
+    min-height: 60vh;
 }
 
 .contactText1 {
@@ -89,6 +89,7 @@ input[type=text], select {
     }
     .contactButton {
         margin-top: 10px !important;
+        margin-bottom: 25px;
     }
 }
 
