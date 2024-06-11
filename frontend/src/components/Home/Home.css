@@ -1,5 +1,5 @@
 .containerHome {
-    margin-top: 75px;
+    margin-top: 150px;
     margin-left: 14%;
     margin-right: 14%;
 
@@ -91,10 +91,13 @@
     transform: scale(1.1);
 }
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 990px) {
     .containerHome {
-        margin-top: 50px;
+        margin-top: 75px;
     }
+}
+
+@media only screen and (max-width: 550px) {
     .avatarImage {
         width: 300px;
     }
