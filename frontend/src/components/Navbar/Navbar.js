@@ -20,7 +20,7 @@ export default function NavbarComponent() {
                     <Nav.Link href="#services" className="navbarText">Services</Nav.Link>
                     <Nav.Link href="#projects" className="navbarText">Projects</Nav.Link>
                     <Nav.Link href="#testimonials" className="navbarText">Testimonials</Nav.Link>
-                    <Nav.Link href="/" className="navbarText">Contact Us</Nav.Link>
+                    <Nav.Link href="#contact" className="navbarText">Contact Us</Nav.Link>
                     <Button className="navbarButton">Download CV</Button>
                 </Nav>
                 </Navbar.Collapse>

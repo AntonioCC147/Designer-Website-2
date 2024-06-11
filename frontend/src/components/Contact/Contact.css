@@ -1,0 +1,111 @@
+#contact {
+    padding-top: 75px; 
+    margin-top: -75px;
+}
+
+.containerContact {
+    margin-left: 14%;
+    margin-right: 14%;
+
+    text-align: center;
+
+    min-height: calc(100vh - 75px);
+}
+
+.contactText1 {
+    margin-bottom: 0px;
+
+    font-size: 2.75rem;
+    font-weight: bold;
+    text-align: center;
+
+    color: #000000;
+}
+
+.contactText2 {
+    margin-top: 25px;
+    margin-bottom: 0px;
+    margin-left: 20%;
+    margin-right: 20%;
+
+    font-size: 1.1rem;
+    text-align: center;
+
+    color: #000000;
+}
+
+.contactButtons {
+    margin-top: 75px;
+}
+
+input[type=text], select {
+    margin: 8px 0;
+
+    width: 400px;
+    padding: 12px 20px;
+    display: inline-block;
+
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+    color: #AFAFAF;
+    background-color: #F8F8F8;
+}
+
+.contactButton {
+    margin-top: -5px !important;
+    margin-left: 15px;
+    margin-right: 15px;
+
+    width: 150px;
+    height: 50px;
+
+    background-color: #FF6300;
+    border-color: #FF6300;
+}
+
+.contactButton:hover, .contactButton:focus, .contactButton:active, .contactButton:focus:active {
+    transform: scale(1.1);
+
+    background-color: #000000 !important;
+}
+
+@media only screen and (max-width: 810px) {
+    input[type=text], select {
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width: 670px) {
+    input[type=text], select {
+        width: 250px;
+    }
+}
+
+@media only screen and (max-width: 590px) {
+    input[type=text], select {
+        width: 350px;
+    }
+    .contactButton {
+        margin-top: 10px !important;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    input[type=text], select {
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    input[type=text], select {
+        width: 250px;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    input[type=text], select {
+        width: 200px;
+    }
+}
