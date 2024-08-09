@@ -21,7 +21,9 @@ export default function NavbarComponent() {
                     <Nav.Link href="#projects" className="navbarText">Projects</Nav.Link>
                     <Nav.Link href="#testimonials" className="navbarText">Testimonials</Nav.Link>
                     <Nav.Link href="#contact" className="navbarText">Contact Us</Nav.Link>
+                    <div className="d-flex justify-content-center align-items-center">
                     <Button className="navbarButton">Download CV</Button>
+                    </div>
                 </Nav>
                 </Navbar.Collapse>
             </Container>
