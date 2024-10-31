@@ -23,7 +23,7 @@ export default function About() {
                     <ProgressBar now={70}/>
                     <p className="aboutText3">App Design</p>
                     <ProgressBar now={80}/>
-                    <p className="aboutText3">graphic Design</p>
+                    <p className="aboutText3">Graphic Design</p>
                     <ProgressBar now={60}/>
                 </Col>
             </Row>
