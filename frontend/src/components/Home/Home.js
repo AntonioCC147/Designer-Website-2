@@ -18,14 +18,14 @@ export default function Home() {
                     <p className="homeText1">Hi I am</p>
                     <p className="homeText2">Muhammad Bin Jameel</p>
                     <p className="homeText3">UI & UX</p>
-                    <p className="homeText32" style={{color: "#FF6300"}}>Designer</p>
-                    <p className="homeText4">Lorem ipsum dolor sit amet consectetur. Imperdiet convallis blandit felis ligula aliquam venenatis nisi ante. Aliquet ornare tellus consectetur lacus</p>
+                    <p className="homeText4" style={{color: "#FF6300"}}>Designer</p>
+                    <p className="homeText5">Lorem ipsum dolor sit amet consectetur. Imperdiet convallis blandit felis ligula aliquam venenatis nisi ante. Aliquet ornare tellus consectetur lacus</p>
                     <div className="centerHomeButton">
                         <Button className="homeButton">Hire Me</Button>
                     </div>
                 </Col>
-                <Col lg={6} className="avatarImageContainer d-flex flex-column align-items-center justify-content-center">
-                    <img src={Avatar} className="avatarImage mb-3" alt="Avatar"/>
+                <Col lg={6} className="d-flex flex-column align-items-center justify-content-center">
+                    <img src={Avatar} className="avatarImage" alt="Avatar"/>
                     <div className="d-flex align-items-center iconsContainer">
                         <a href="/"><img src={Facebook} alt="Facebook"/></a>
                         <a href="/"><img src={Twitter} alt="Twitter"/></a>

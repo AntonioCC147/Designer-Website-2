@@ -20,7 +20,6 @@
 }
 
 .homeText2 {
-    margin-top: 0px;
     margin-bottom: 0px;
 
     font-size: 1.5rem;
@@ -30,7 +29,6 @@
 }
 
 .homeText3 {
-    margin-top: 0px;
     margin-bottom: 0px;
 
     font-size: 4rem;
@@ -39,8 +37,7 @@
     color: #000000;
 }
 
-.homeText32 {
-    margin-top: 0px;
+.homeText4 {
     margin-bottom: 0px;
     margin-left: 160px;
 
@@ -50,8 +47,7 @@
     color: #000000;
 }
 
-.homeText4 {
-    margin-top: 0px;
+.homeText5 {
     margin-bottom: 0px;
     margin-right: 120px;
 
@@ -63,24 +59,19 @@
 
 .homeButton {
     margin-top: 25px;
+    margin-bottom: 25px;
 
     width: 125px;
 
-    background-color: #FF6300;
-    border-color: #FF6300;
+    background-color: #FF6300 !important;
+    border-color: #FF6300 !important;
 }
 
-.homeButton:hover, .homeButton:focus, .homeButton:active, .homeButton:focus:active {
+.homeButton:hover {
     transform: scale(1.1);
 
     background-color: #000000 !important;
     border-color: #000000 !important;
-}
-
-.avatarImageContainer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 .iconsContainer img {
@@ -94,6 +85,9 @@
 @media only screen and (max-width: 990px) {
     .containerHome {
         margin-top: 75px;
+    }
+    .homeText5 {
+        margin-right: 0px;
     }
 }
 
@@ -110,21 +104,16 @@
     .homeText3 {
         font-size: 2.3rem;
     }
-    .homeText32 {
+    .homeText4 {
         margin-left: 95px;
         font-size: 2.3rem;
     }
-    .homeText4 {
-        margin-right: 0px;
+    .homeText5 {
         font-size: 0.8rem;
     }
 }
 
 @media only screen and (max-width: 990px) {
-    .avatarImageContainer {
-        margin-top: 25px;
-        justify-content: center !important;
-    }
     .centerHomeButton {
         display: flex;
         justify-content: center;
