@@ -4,10 +4,9 @@
 }
 
 .containerServices {
+    margin-top: 50px !important;
     margin-left: 14%;
     margin-right: 14%;
-
-    min-height: calc(50vh + 125px);
 }
 
 .servicesText1 {
@@ -39,7 +38,7 @@
     padding: 25px;
 
     width: 230px;
-    height: 250px;
+    min-height: 250px;
 
     border-radius: 10px;
 

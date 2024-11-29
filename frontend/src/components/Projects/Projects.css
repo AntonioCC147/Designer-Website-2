@@ -4,10 +4,9 @@
 }
 
 .containerProjects {
+    margin-top: 50px !important;
     margin-left: 14%;
     margin-right: 14%;
-
-    min-height: calc(100vh - 75px);
 }
 
 .projectsText1 {

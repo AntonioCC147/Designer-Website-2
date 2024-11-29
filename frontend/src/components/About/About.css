@@ -4,11 +4,9 @@
 }
 
 .containerAbout {
-    margin-top: 50px;
+    margin-top: 50px !important;
     margin-left: 14%;
     margin-right: 14%;
-
-    min-height: calc(75vh + 20px);
 }
 
 .aboutText1 {

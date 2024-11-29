@@ -4,12 +4,11 @@
 }
 
 .containerTestimonials {
+    margin-top: 50px !important;
     margin-left: 14%;
     margin-right: 14%;
 
     text-align: center;
-
-    min-height: calc(100vh - 75px);
 }
 
 .testimonialsText1 {

@@ -4,12 +4,12 @@
 }
 
 .containerContact {
+    margin-top: -50px !important;
+    margin-bottom: 50px !important;
     margin-left: 14%;
     margin-right: 14%;
 
     text-align: center;
-
-    min-height: 60vh;
 }
 
 .contactText1 {
